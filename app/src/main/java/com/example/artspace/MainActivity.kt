@@ -119,8 +119,8 @@ private fun ArtSpace() {
             shape = RectangleShape,
         ) {
             Image(
-                painter = painterResource(id = artwork), // Must change
-                contentDescription = stringResource(id = artworkDescription), // Must  change
+                painter = painterResource(id = artwork),
+                contentDescription = stringResource(id = artworkDescription),
                 modifier = Modifier.padding(30.dp),
             )
         }
@@ -138,7 +138,7 @@ private fun ArtSpace() {
                 withStyle(
                     style = SpanStyle(colorResource(id = R.color.artwork_title_black), fontWeight = FontWeight.Light, fontSize = 24.sp)
                 ) {
-                    append(stringResource(id = artworkName)) // Must change
+                    append(stringResource(id = artworkName))
                 }
 
                 withStyle(
@@ -150,7 +150,7 @@ private fun ArtSpace() {
                 withStyle(
                     style = SpanStyle(colorResource(id = R.color.artwork_release_year_black),  fontWeight = FontWeight.Light, fontSize = 16.sp)
                 ) {
-                    append(stringResource(id = artworkReleaseYear)) // Must change
+                    append(stringResource(id = artworkReleaseYear))
                 }
             },
 
